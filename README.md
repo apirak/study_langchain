@@ -21,3 +21,15 @@ https://python.langchain.com/v0.2/docs/tutorials/retrievers/
 `pip install "langserve[all]"` `python serve.py`
 
 url: http://localhost:8000/chain/playground/
+
+## Update environment
+
+`poetry install` `poetry update`
+
+## Run python file
+
+`poetry run python chat_bot.py`
+
+or
+
+`poetry shell` `python chat_bot.py`
